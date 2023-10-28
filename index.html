@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
+
+    <div>
+      <h1>Dragoon Adventure</h1>
+
+      <p>
+        Descargue el documento de diseño del juego haciendo <a href="./DocumentoDiseno.docx" target="_blank">click aqui</a>
+      </p>
+    </div>
+
+
+
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
@@ -58,9 +69,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Build.data.unityweb",
-        frameworkUrl: buildUrl + "/Build.framework.js.unityweb",
-        codeUrl: buildUrl + "/Build.wasm.unityweb",
+        dataUrl: buildUrl + "/Build.data.br",
+        frameworkUrl: buildUrl + "/Build.framework.js.br",
+        codeUrl: buildUrl + "/Build.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Celestrality",
@@ -115,5 +126,9 @@
       };
       document.body.appendChild(script);
     </script>
+
+
+
+
   </body>
 </html>
